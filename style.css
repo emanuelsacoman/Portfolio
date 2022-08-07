@@ -1,0 +1,312 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+header {
+    display: block;
+}
+
+body {
+    background-image: linear-gradient(145deg, #133a55, #148D8D 55%);
+    background-repeat: no-repeat;
+    background-size: 4000px 6000px;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    display: block;
+}
+
+section nav {
+    font-family: 'Roboto Thin';
+    font-size: 36px;
+    line-height: 55px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .meubotao {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #0E2C40;
+    background: #eebe7a;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+
+p, .par {
+    transition: all 0.1s;
+}
+
+.par {
+    padding-top: 150px;
+}
+
+/* Botão */
+
+a {
+    transition: all 0.2s;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: aliceblue;
+}
+
+/* Botão */
+
+.cima:hover {
+    color: #eebe7a;
+}
+
+li:first-child {
+    float: left;
+}
+
+li {
+    display: inline-block;
+    padding-right: 7%;
+    margin: 10px 0 0 0;
+    font-size: 36px;
+}
+
+.topnav {
+    list-style: none;
+    font-family: 'Roboto Thin';
+    color: aliceblue;
+    margin: 50px 0 0 0;
+    text-align: right;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Roboto Thin';
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+
+.home {
+    margin-top: 220px;
+}
+
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+footer {
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: -15px;
+}
+
+footer {
+    display: block;
+}
+
+.texto {
+    text-align: center;
+}
+
+/* Imagens da pg contato */
+
+.features figure {
+    scale: 10px;
+    display: inline-block;
+    padding: 25px;
+    margin: 2px;
+    position: relative;
+    top: -200px;
+}
+
+.features figure img {
+    border-radius: 10%;
+    width: 75px;
+    height: 75px;
+    opacity: 1;
+}
+
+figure img:hover {
+    opacity: 0.5;
+}
+
+img {
+    transition: all 0.1s;
+}
+
+img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+    color: aliceblue;
+}
+
+/* Imagens da pg contato */
+
+p.foter {
+    opacity: 0.5;
+}
+
+p.foter:hover {
+    opacity: 1;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1140px) {
+    section nav {
+        font-family: 'Roboto Thin';
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        font-size: 24px;
+    }
+
+    .features figure:first-child {
+        padding-top: 100px;
+    }
+
+
+    .features figure img {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .features figure {
+
+        padding: 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+
+    li {
+        font-size: 16px;
+    }
+
+    section header {
+        font-size: 42px;
+    }
+
+    .features figure:first-child {
+        padding-top: 100px;
+    }
+
+    section nav {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    header .logo a {
+        height: 50px;
+        width: 60px;
+        background-size: 50px;
+    }
+
+    .par, .home {
+        font-size: 50px;
+    }
+
+    p.texto {
+        font-size: 22px;
+    }
+
+    .features figure img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .features figure {
+
+        padding: 70px 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 12px;
+    }
+
+    section nav {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    section .meubotao {
+        font-size: 12px;
+    }
+
+    section .meubotao:hover {
+        background: white;
+        font-size: 14px;
+        margin-top: 29px;
+    }
+
+    .par, .home {
+        font-size: 34px;
+    }
+
+    .foter {
+        font-size: 12px;
+    }
+
+    .features figure img {
+        height: 25px;
+        width: 25px;
+
+    }
+
+    .features figure:first-child {
+        padding-top: 100px;
+    }
+
+    .features figure img {
+        height: 24px;
+        width: 24px;
+    }
+
+    p.texto {
+        font-size: 20px;
+    }
+
+    .features figure {
+
+        padding: 125px 10px;
+    }
+}
