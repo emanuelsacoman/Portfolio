@@ -13,6 +13,69 @@ body {
     color: white;
 }
 
+/* fadeIn */
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fadeIn {
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* fadeIn */
+
+/* Sublinhado no header */
+
+a.cima {
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;  
+}
+
+a.cima:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #eebe7a;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a.cima:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+  /* Sublinhado no header */
+
+  li.logo {
+    display: flex;
+  }
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -35,7 +98,9 @@ section nav {
     align-items: center;
 }
 
-section .meubotao {
+/* Botão */
+
+section .meubotao,.meubotao1 {
     font-family: 'Roboto';
     font-size: 24px;
     color: #0E2C40;
@@ -49,6 +114,50 @@ section .meubotao {
     border-radius: 5px;
 }
 
+a {
+    transition: all 0.2s;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li.logo a {
+    color: #eebe7a;
+}
+
+a.meubotao,.meubotao1:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: aliceblue;
+}
+
+.meubotao1 {
+    transform-style: preserve-3d;
+    
+}
+
+.meubotao1:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 6px;
+    position: absolute;
+    background: #eebe7a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    content: '↓';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+
+.meubotao1:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+
+}
+/* Botão */
+
 p, .par {
     transition: all 0.1s;
 }
@@ -56,24 +165,6 @@ p, .par {
 .par {
     padding-top: 150px;
 }
-
-/* Botão */
-
-a {
-    transition: all 0.2s;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-a:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: aliceblue;
-}
-
-/* Botão */
-
 .cima:hover {
     color: #eebe7a;
 }
@@ -259,7 +350,7 @@ p.foter:hover {
 }
 
 @media screen and (max-width: 600px) {
-    li {
+    li a.cima {
         font-size: 12px;
     }
 
@@ -268,8 +359,8 @@ p.foter:hover {
         line-height: 26px;
     }
 
-    section .meubotao {
-        font-size: 12px;
+    section .meubotao, .meubotao1 {
+        font-size: 14px;
     }
 
     section .meubotao:hover {
