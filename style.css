@@ -297,6 +297,12 @@ p.foter:hover {
         padding: 10px 10px;
     }
 
+    a.cima:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
 }
 
 @media screen and (max-width: 760px) {
@@ -345,6 +351,13 @@ p.foter:hover {
     .features figure {
 
         padding: 70px 10px;
+    }
+
+    a.cima:hover:before {
+        visibility: visible;
+        padding: -5px 0px 0px;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
     }
 
 }
@@ -399,5 +412,12 @@ p.foter:hover {
     .features figure {
 
         padding: 125px 10px;
+    }
+
+    a.cima:hover:before {
+        visibility: visible;
+        padding: -5px 0px 0px;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
     }
 }
