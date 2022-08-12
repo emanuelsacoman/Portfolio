@@ -296,6 +296,12 @@ p.foter:hover {
 
         padding: 10px 10px;
     }
+    a.cima:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+    }
 
 }
 
@@ -345,6 +351,13 @@ p.foter:hover {
     .features figure {
 
         padding: 70px 10px;
+    }
+
+    a.cima:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1.5px;
     }
 }
 
@@ -398,5 +411,11 @@ p.foter:hover {
     .features figure {
 
         padding: 125px 10px;
+    }
+    a.cima:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
     }
 }
