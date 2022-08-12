@@ -124,7 +124,7 @@ li.logo a {
     color: #eebe7a;
 }
 
-a.meubotao,.meubotao1:hover {
+a.meubotao:hover,.meubotao1:hover {
     cursor: pointer;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -297,12 +297,6 @@ p.foter:hover {
         padding: 10px 10px;
     }
 
-    a.cima:hover:before {
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-
 }
 
 @media screen and (max-width: 760px) {
@@ -352,14 +346,6 @@ p.foter:hover {
 
         padding: 70px 10px;
     }
-
-    a.cima:hover:before {
-        visibility: visible;
-        padding: -5px 0px 0px;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -412,12 +398,5 @@ p.foter:hover {
     .features figure {
 
         padding: 125px 10px;
-    }
-
-    a.cima:hover:before {
-        visibility: visible;
-        padding: -5px 0px 0px;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
     }
 }
