@@ -41,6 +41,19 @@ body {
 
 /* fadeIn */
 
+/* muda cor dependendo da pagina (header) */
+
+#principal {
+    color: #0E2C40;
+}
+
+#principal:hover {
+    color: #eebe7a;
+}
+
+ /* muda cor dependendo da pagina (header) */
+
+
 /* Sublinhado no header */
 
 a.cima {
@@ -133,6 +146,7 @@ a.meubotao:hover,.meubotao1:hover {
 
 .meubotao1 {
     transform-style: preserve-3d;
+    perspective: 150px;
     
 }
 
@@ -193,6 +207,8 @@ section header {
     font-family: 'Roboto Thin';
     font-size: 62px;
     margin-bottom: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .home {
@@ -302,6 +318,7 @@ p.foter:hover {
         width: 100%;
         height: 2px;
     }
+
 
 }
 
