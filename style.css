@@ -147,7 +147,6 @@ a.meubotao:hover,.meubotao1:hover {
 .meubotao1 {
     transform-style: preserve-3d;
     perspective: 150px;
-    
 }
 
 .meubotao1:after {
@@ -279,6 +278,92 @@ p.foter {
 p.foter:hover {
     opacity: 1;
 }
+
+/* CSS SOBREMIM */
+
+.linha-tempo-a{
+    margin-top: 200px;
+    bottom: 200px;
+    margin-left: 50%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 200px;
+}
+
+.linha-tempo-b{
+    margin-left: 50%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 200px;
+}
+.linha-tempo-c{
+    margin-left: 50%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 200px;
+}
+.linha-tempo-d{
+    margin-left: 50%;
+    background-color: aliceblue;
+    width: 5px;
+    height: 200px;
+}
+
+.linha-tempo-e{
+    margin-left: 50%;
+    margin-bottom: 200px;
+    background-color: aliceblue;
+    width: 5px;
+    height: 200px;
+}
+
+.circle {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.circle-a {
+    left:910px;
+    bottom: 800px;
+    border-radius: 50%;
+    padding: 20px;
+    border: solid 5px aliceblue;
+    position: absolute;
+    background-color: #eebe7a;    
+}
+
+.circle-b {
+    left:910px;
+    bottom: 600px;
+    border-radius: 50%;
+    padding: 20px;
+    border: solid 5px aliceblue;
+    position: absolute;
+    background-color: #eebe7a;       
+}
+
+.circle-c {
+    left:910px;
+    bottom: 400px;
+    border-radius: 50%;
+    padding: 20px;
+    border: solid 5px aliceblue;
+    position: absolute;
+    background-color: #eebe7a;   
+    
+}
+
+.circle-d {
+    left:910px;
+    bottom: 1000px;
+    border-radius: 50%;
+    padding: 20px;
+    border: solid 5px aliceblue;
+    position: absolute;
+    background-color: #eebe7a;   
+    
+}
+/* CSS SOBREMIM */
 
 /* Responsividade */
 
