@@ -15,12 +15,28 @@
 span {
     color: #0E2C40;
     transition: all 0.2s;
-    
 }
 .timeline ul li:hover span{
     color: aliceblue;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
+    transition: all 0.2s;
+}
+
+.timeline ul li:hover h3 {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+    transition: all 0.2s;
+}
+.timeline ul li:hover ul {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    transition: all 0.2s;
+}
+
+.timeline ul li:hover p {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
     transition: all 0.2s;
 }
 
