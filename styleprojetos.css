@@ -5,15 +5,18 @@
 	padding: 30px 0px 0px 0px;
 	display: flex;
     flex-direction: row;
+
 }
 .proj {
     margin-bottom: 100px;
+
 }
 
 .features figure {
     margin: auto;
     padding: 5px;
 	text-align: center;
+    transition: all 0.2s
 }
 
 .features figure img {
@@ -46,15 +49,6 @@ figure figcaption {
     font-size: 22px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-footer {
-    font-family: 'Roboto Thin';
-    text-align: center;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    position: fixed;
-    bottom: 0pt;
 }
 
 @media screen and (max-width: 1140px) {
@@ -97,10 +91,6 @@ footer {
 
     section header {
         font-size: 36px;
-    }
-
-    .video {
-        margin-top: 50px;
     }
 
     section div {

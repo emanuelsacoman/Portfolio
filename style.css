@@ -225,7 +225,8 @@ footer {
     background-attachment: scroll;
     background-position: 0% 0%;
     position: fixed;
-    bottom: -15px;
+    bottom: 0pt;
+    transition: all 0.2s;
 }
 
 footer {
