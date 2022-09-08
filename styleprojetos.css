@@ -3,13 +3,10 @@
 .features {
     margin-top: auto;
 	padding: 30px 0px 0px 0px;
-	display: flex;
-    flex-direction: row;
-
+    
 }
 .proj {
     margin-bottom: 100px;
-
 }
 
 .features figure {
@@ -17,18 +14,21 @@
     padding: 5px;
 	text-align: center;
     transition: all 0.2s
+    
 }
 
 .features figure img {
 	border-radius: 2%;
 	width: 340px;
 	height: 200px;
+    
 }
 
 .features figure img:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    filter: brightness(150%);
     transition: all 0.2s;
     opacity: 1;
 }
@@ -38,6 +38,14 @@
     transform: scale(1.1);
     box-shadow:0px 0px 20px rgba(0,0,0,.5);
     transition: all 0.2s;
+}
+
+.features figure {
+    margin: 20px;
+}
+
+.features figure:first-child {
+    padding-top: 0px;
 }
 
 .features figure:hover a{
@@ -60,7 +68,13 @@ figure figcaption {
         font-family: 'Roboto Thin';
         font-size: 20px;
         margin-top: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
+    }
+
+    .features figure img {
+        border-radius: 2%;
+        width: 300px;
+        height: 160px;
     }
 
     li {
@@ -76,6 +90,7 @@ figure figcaption {
         flex-direction: column;
         align-items: center;
         margin: 50px;
+        
     }
 }
 
@@ -86,7 +101,11 @@ figure figcaption {
 
     .features figure img {
         width: 240px;
-        height: 135x;
+        height: 135px;
+    }
+
+    figure figcaption {
+        margin-bottom: 0;
     }
 
     section header {
@@ -110,8 +129,7 @@ figure figcaption {
         font-size: 12px;
     }
 
-    .features figure img {
-        max-width:90%;
-        height:auto;
+    .features figure:first-child {
+        margin-top: 100px;
     }
 }

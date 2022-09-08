@@ -87,6 +87,7 @@ a.cima:hover:before {
 
   li.logo {
     display: flex;
+    padding: 0px;
   }
 
 ::-webkit-scrollbar {
@@ -441,14 +442,32 @@ p.foter:hover {
             padding-right: 0;
             padding-left: 0;
         }
+
         li a.cima {
             padding-right: 0;
             padding-left: 0;
         }
+
         ul.topnav {
             padding: 0;
-
         }
 
+    }
+
+    @media screen and (max-width: 404px){
+        li {
+            padding: 0;
+            margin: 5px;
+        }
+        li a.cima {
+            font-size: 10px;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        .meubotao {
+            font-size: 10px;
+        }
     }
 }
