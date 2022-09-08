@@ -279,11 +279,6 @@ p.foter:hover {
     opacity: 1;
 }
 
-/* CSS SOBREMIM */
-
-
-/* CSS SOBREMIM */
-
 /* Responsividade */
 
 @media screen and (max-width: 1140px) {
@@ -438,5 +433,21 @@ p.foter:hover {
         position: absolute;
         width: 100%;
         height: 1px;
+    }
+
+    @media screen and (max-width: 485px) {
+        li.logo {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        li a.cima {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        ul.topnav {
+            padding: 0;
+
+        }
+
     }
 }

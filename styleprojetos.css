@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.features {
+    margin-top: auto;
+	padding: 30px 0px 0px 0px;
+	display: flex;
+    flex-direction: row;
+}
+.proj {
+    margin-bottom: 100px;
+}
+
+.features figure {
+    margin: auto;
+    padding: 5px;
+	text-align: center;
+}
+
+.features figure img {
+	border-radius: 2%;
+	width: 340px;
+	height: 200px;
+}
+
+.features figure img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    transition: all 0.2s;
+    opacity: 1;
+}
+
+.features figure:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow:0px 0px 20px rgba(0,0,0,.5);
+    transition: all 0.2s;
+}
+
+.features figure:hover a{
+    color: #eebe7a;
+}
+
+figure figcaption {
+    font-family: 'Roboto Thin';
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+
+@media screen and (max-width: 1140px) {
+    .features {
+        display: block;
+    }
+
+    figure figcaption {
+        font-family: 'Roboto Thin';
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    li {
+        font-size: 24px;
+    }
+
+    section div {
+        font-family: 'Roboto Thin';
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    li {
+        font-size: 14px;
+    }
+
+    .features figure img {
+        width: 240px;
+        height: 135x;
+    }
+
+    section header {
+        font-size: 36px;
+    }
+
+    .video {
+        margin-top: 50px;
+    }
+
+    section div {
+        font-family: 'Roboto Thin';
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    li {
+        font-size: 12px;
+    }
+
+    .features figure img {
+        max-width:90%;
+        height:auto;
+    }
+}
