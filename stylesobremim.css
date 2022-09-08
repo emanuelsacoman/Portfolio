@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
+:root {
+    --font-xl: clamp(0.1rem, 4vw + 0.1rem, 1.8rem);  /*  eu nessas duas linhas: */
+    --font-md: clamp(0.1rem, 3vw + 0.1rem, 1.5rem);  /*  */
+}
+
 .timeline{
     font-family: 'Roboto Thin';
     width:1000px;
@@ -7,7 +13,7 @@
     padding:30px 20px;
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
     margin-bottom: 50px;
-    margin-top: 200px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     transition: all 0.2s;
@@ -59,18 +65,20 @@ span, h3 {
     background-color:#eebe7a;
     border-radius:25px;
     padding:2px 5px;
-    font-size:24px; 
+    font-size: var(--font-xl);
     text-align:center;
 }
 .timeline ul li .content h3{
     color:#eebe7a;
-    font-size:22px;
+    font-size: 1.8vw;
     padding-top:5px;
+    font-size: var(--font-xl);
 }
 .timeline ul li .content p{
     padding:5px 0px 15px 0px;
-    font-size:20px;
+    font-size: var(--font-md);
 }
+
 .timeline ul li:before{
     position:absolute;
     content:'';
@@ -90,22 +98,122 @@ span, h3 {
     background-color:#eebe7a;
     box-shadow:0px 0px 10px 2px #eebe7a;
 }
+
+.hub:hover {
+    color: #eebe7a;
+}
+
+.sm {
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: justify;
+}
+
 @media screen and (max-width: 1140px){
-    .timeline {
-        margin-top: 200px;
-        margin-left: 40px;
-        margin-right: 40px;
+    .timeline{
+        font-family: 'Roboto Thin';
+        width:90%;
+        color:aliceblue;
+        padding:30px 20px;
+        box-shadow:0px 0px 10px rgba(0,0,0,.5);
+        margin-bottom: 50px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all 0.2s;
     }
 }
 
-@media (max-width:300px){
-.timeline{
-      width:100%;
-      padding:30px 5px 30px 10px;
+@media screen and (max-width: 760px){
+
+    .timeline ul li span{
+        display:inline-block;
+        background-color:#eebe7a;
+        border-radius:25px;
+        padding:2px 5px;
+
+        text-align:center;
     }
-.timeline ul li .content h3{
-      color:#eebe7a;
-      font-size:15px;
+    .timeline ul li .content h3{
+        color:#eebe7a;
+        padding-top:5px;
+    }
+    .timeline ul li .content p{
+        padding: 5px 0px 15px 0px;
+
+        margin-right: 10px;
+    }    
+}
+
+@media screen and (max-width: 600px){
+    .timeline ul li span{
+        display:inline-block;
+        background-color:#eebe7a;
+        border-radius:25px;
+        padding:2px 5px;
+
+        text-align:center;
+    }
+    .timeline ul li .content h3{
+        color:#eebe7a;
+
+        padding-top:5px;
+    }
+    .timeline ul li .content p{
+        padding: 5px 0px 15px 0px;
+ 
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .timeline ul li span{
+        display:inline-block;
+        background-color:#eebe7a;
+        border-radius:25px;
+        padding:2px 5px;
+
+        text-align:center;
+    }
+    .timeline ul li .content h3{
+        color:#eebe7a;
+
+        padding-top:5px;
+    }
+    .timeline ul li .content p{
+        padding: 5px 0px 15px 0px;
+
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 404px){
+    .timeline ul li span{
+        display:inline-block;
+        background-color:#eebe7a;
+        border-radius:25px;
+        padding:2px 5px;
+
+        text-align:center;
+    }
+    .timeline ul li .content h3{
+        color:#eebe7a;
+
+        padding-top:5px;
+    }
+    .timeline ul li .content p{
+        padding: 5px 0px 15px 0px;
+ 
+        margin-right: 10px;
+    }
+    .timeline ul li:hover:before{
+        background-color:#eebe7a;
+        box-shadow:0px 0px 10px 2px #eebe7a;
+    }
+    .timeline ul li:before {
+        left: -16px;
     }
 
 }
