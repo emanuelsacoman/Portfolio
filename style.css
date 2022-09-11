@@ -6,6 +6,10 @@ header {
     display: block;
 }
 
+#btnMenu, label  {
+    display: none;
+}
+
 body {
     background-image: linear-gradient(145deg, #133a55, #148D8D 55%);
     background-repeat: no-repeat;
@@ -51,8 +55,7 @@ body {
     color: #eebe7a;
 }
 
- /* muda cor dependendo da pagina (header) */
-
+/* muda cor dependendo da pagina (header) */
 
 /* Sublinhado no header */
 
@@ -171,6 +174,24 @@ a.meubotao:hover,.meubotao1:hover {
 
 }
 /* Botão */
+
+.card {
+    display: flex;
+    box-shadow:0px 0px 20px rgba(0,0,0,.5);
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+}
+
+.card img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: brightness(110%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
 
 p, .par {
     transition: all 0.1s;
@@ -319,12 +340,16 @@ p.foter:hover {
         width: 100%;
         height: 2px;
     }
-
-
+    .card img {
+        height: 160px;
+        width: 160px;
+        margin: 5px;
+    }
+    
 }
 
 @media screen and (max-width: 760px) {
-
+    
 
     li {
         font-size: 16px;
@@ -454,13 +479,11 @@ p.foter:hover {
 
     }
 
+    
     @media screen and (max-width: 404px){
         li {
             padding: 0;
             margin: 5px;
-        }
-        li a.cima {
-            font-size: 10px;
         }
         ul {
             margin: 0px;
@@ -469,5 +492,47 @@ p.foter:hover {
         .meubotao {
             font-size: 10px;
         }
+        li a.cima:first-child {
+            top: 0;
+            right: 0;
+            margin-left: 200px;
+        }
+        li a.cima {
+            visibility: visible;
+            opacity: 0;
+            font-size: 20px;
+            padding: 5px 10px;
+            left: 150px;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            transition: all 0.2s linear;
+        }
+        label {
+            display: block;
+            height: 40px;
+            width: 40px;
+            float: right;
+            padding-bottom: 15px;
+            transition: all 0.2s;
+        }
+
+        label:active {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+
+        input:checked + .checkbox-wrapper li a.cima {
+            visibility: visible;
+            opacity: 1;
+            left: 0px;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        .card img {
+            height: 135px;
+            width: 135px;
+            margin: 5px;
+        }
+    
     }
 }

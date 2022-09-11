@@ -132,4 +132,10 @@ figure figcaption {
     .features figure:first-child {
         margin-top: 100px;
     }
+
+    @media screen and (max-width: 404px){
+        .logo {
+            font-size: 16px;
+        }
+    }
 }
