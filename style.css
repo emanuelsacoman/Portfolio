@@ -613,7 +613,7 @@ p.foter:hover {
         li a.cima {
             visibility: visible;
             opacity: 0;
-            font-size: 20px;
+            font-size: 0px;
             padding: 5px 10px;
             left: 150px;
             -webkit-transform: scale(0);
@@ -644,6 +644,7 @@ p.foter:hover {
             left: 0px;
             -webkit-transform: scale(1);
             transform: scale(1);
+            font-size: 20px;
         }
 
         .botoes img {
