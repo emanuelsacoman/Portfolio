@@ -567,6 +567,21 @@ p.foter:hover {
             padding: 0;
             margin: 5px;
         }
+        #par {
+            padding: 0;
+            margin: 5px;
+        }
+        section.features {
+            margin-top: 50px;
+        }
+        section.proj {
+            padding-top: 0;
+            margin-top: 0;
+        }
+        header.par {
+            padding-top: 0;
+            margin-top: 0;
+        }
     }
 
     
