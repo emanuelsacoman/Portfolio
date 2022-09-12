@@ -19,6 +19,9 @@ body {
     background-size: 4000px 6000px;
     color: white;
 }
+.hub:hover {
+    color: #eebe7a;
+}
 
 
 /* fadeIn */
