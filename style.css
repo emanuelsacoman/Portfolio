@@ -22,6 +22,10 @@ body {
 .hub:hover {
     color: #eebe7a;
 }
+.hub {
+    text-decoration: underline;
+    text-decoration-color: #eebe7a;
+}
 
 
 /* fadeIn */
@@ -125,7 +129,7 @@ section nav {
 /* Botão */
 
 section .meubotao,.meubotao1 {
-    font-family: 'Roboto';
+    font-family: 'Roboto Thin';
     font-size: 24px;
     color: #0E2C40;
     background: #eebe7a;
@@ -136,6 +140,7 @@ section .meubotao,.meubotao1 {
     margin-left: 5%;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 a {
@@ -279,10 +284,11 @@ footer {
 }
 
 .botoes img {
-    padding-left: 10px;
     width: 30px;
     height: 30px;
+    margin-top: 10px;
     margin-right: 5px;
+
 }
 
 .texto {
@@ -292,18 +298,17 @@ footer {
 }
 
 .botoes a {
-    box-shadow: inset 0px 0px 20px rgba(0,0,0,.5);
     padding-right: 5px;
 }
 
 .botoes a:hover img{
-    transform: scale(0.9);
-    -webkit-transform: scale(0.9);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 
 .botoes a:hover, .botoes img:hover {
-    color: #eebe7a;
+    color: aliceblue;
 }
 
 /* Imagens da pg contato */
@@ -394,11 +399,10 @@ p.foter:hover {
     }
 
     .botoes img {
-        padding-left: 10px;
         width: 25px;
         height: 25px;
-        margin-right: 5px;
         margin-top: 5px;
+        margin-right: 5px;
     }
     
 }
@@ -468,9 +472,9 @@ p.foter:hover {
     }
 
     .botoes img {
-        padding-left: 10px;
         width: 20px;
         height: 20px;
+        margin-top: 7px;
         margin-right: 5px;
     }
 }
@@ -490,7 +494,7 @@ p.foter:hover {
     }
 
     section .meubotao:hover {
-        background: white;
+        background: aliceblue;
         font-size: 14px;
         margin-top: 29px;
     }
@@ -534,9 +538,9 @@ p.foter:hover {
     }
 
     .botoes img {
-        padding-left: 10px;
         width: 18px;
         height: 18px;
+        margin-top: 2px;
         margin-right: 5px;
     }
     @media screen and (max-width: 485px) {
@@ -643,9 +647,9 @@ p.foter:hover {
         }
 
         .botoes img {
-            padding-left: 10px;
             width: 15px;
             height: 15px;
+            margin-top: 4px;
             margin-right: 5px;
         }
 
