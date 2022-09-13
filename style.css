@@ -1,10 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@font-face {
-    font-family:'Roboto Thin';
-    src: url('Roboto-Thin.ttf') format(truetype);
-}
-
 
 header {
     display: block;
@@ -121,7 +116,7 @@ html {
 }
 
 section nav {
-    font-family: 'Roboto Thin', Times, Serif;
+    font-family: 'Roboto Thin', sans-serif;
     font-size: 36px;
     line-height: 55px;
     text-align: left;
@@ -133,7 +128,7 @@ section nav {
 /* Botão */
 
 section .meubotao,.meubotao1 {
-    font-family: 'Roboto Thin', Times, Serif;
+    font-family: 'Roboto Thin', sans-serif;
     font-size: 24px;
     color: #0E2C40;
     background: #eebe7a;
@@ -237,7 +232,7 @@ li {
 
 .topnav {
     list-style: none;
-    font-family: 'Roboto Thin', Times, Serif;
+    font-family: 'Roboto Thin', sans-serif;
     color: aliceblue;
     margin: 50px 0 0 0;
     text-align: right;
@@ -245,7 +240,7 @@ li {
 
 section header {
     margin-top: 0px;
-    font-family: 'Roboto Thin', Times, Serif;
+    font-family: 'Roboto Thin', sans-serif;
     font-size: 62px;
     margin-bottom: 20px;
     margin-left: 17%;
@@ -262,7 +257,7 @@ section {
 }
 
 footer {
-    font-family: 'Roboto Thin', Times, Serif;
+    font-family: 'Roboto Thin', sans-serif;
     text-align: center;
     background-attachment: scroll;
     background-position: 0% 0%;
@@ -363,7 +358,7 @@ p.foter:hover {
 
 @media screen and (max-width: 1140px) {
     section nav {
-        font-family: 'Roboto Thin', Times, Serif;
+        font-family: 'Roboto Thin', sans-serif;
         font-size: 24px;
         line-height: 36px;
         text-align: left;
