@@ -10,7 +10,7 @@
 }
 
 .timeline{
-    font-family: 'Roboto Thin';
+    font-family: 'Roboto Thin', sans-serif;
     width:1000px;
     color:aliceblue;
     padding:30px 20px;
@@ -116,7 +116,7 @@ p {
 
 @media screen and (max-width: 1140px){
     .timeline{
-        font-family: 'Roboto Thin';
+        font-family: 'Roboto Thin', sans-serif;
         width:90%;
         color:aliceblue;
         padding:30px 20px;
