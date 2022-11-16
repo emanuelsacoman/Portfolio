@@ -189,6 +189,7 @@ a.meubotao:hover,.meubotao1:hover {
 
 .cardall {
     box-shadow:0px 0px 20px rgba(0,0,0,.5);
+
 }
 
 .card {
@@ -199,6 +200,10 @@ a.meubotao:hover,.meubotao1:hover {
     height: 250px;
     width: 250px;
     margin: 5px;
+}
+
+.idade {
+    display: inline;
 }
 
 .card img:hover {
@@ -594,19 +599,31 @@ p.foter:hover {
             overflow-x: hidden;
         }
 
+        p.meio {
+            margin-top: 250px;
+        }
+        header.par {
+            margin-top: 250px;
+        }
+        
         li {
             padding: 0;
-            margin: 5px;
+            margin: 4px;
+        }
+
+        li:first-child {
+            margin: 0;
         }
         ul {
             margin: 0px;
             padding: 0px;
+            right: 0vh;            
         }
         .meubotao {
             font-size: 10px;
         }
         li a.cima:first-child {
-            top: 0;
+            top: 50px;
             right: 0;
             margin-left: 200px;
         }
@@ -631,6 +648,11 @@ p.foter:hover {
             float: right;
             padding-bottom: 15px;
             transition: all 0.2s;
+            position: fixed;
+            right: 0vh;
+        }
+        .topnav{
+            position: fixed;
         }
 
         label:active {
@@ -662,6 +684,7 @@ p.foter:hover {
             gap: 40px;
             margin-bottom: 5px;
         }
+        
 
     }
 

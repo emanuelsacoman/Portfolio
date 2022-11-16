@@ -9,6 +9,7 @@
     --font-md: clamp(0.1rem, 3vw + 0.1rem, 1.5rem);  /*                             (╯°□°）╯︵ ┻━┻                                                       */
 }
 
+
 .timeline{
     font-family: 'Roboto Thin', sans-serif;
     width:1000px;
@@ -198,17 +199,23 @@ p {
         background-color:#eebe7a;
         border-radius:25px;
         padding:2px 5px;
-
         text-align:center;
     }
+    header.par {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    section.sm {
+        margin: 0;
+        padding-top: 0;
+    }
+    .timeline 
     .timeline ul li .content h3{
         color:#eebe7a;
-
         padding-top:5px;
     }
     .timeline ul li .content p{
         padding: 5px 0px 15px 0px;
- 
         margin-right: 10px;
     }
     .timeline ul li:hover:before{
@@ -218,5 +225,4 @@ p {
     .timeline ul li:before {
         left: -16px;
     }
-
 }
