@@ -9,6 +9,7 @@
     <meta name="description" content="Portfólio do desenvolvedor Emanuel V. Sacoman">
     <meta name="keywords" content="portfolio, html, css, fronnt-end, desenvolvimento, javascript">
     <link rel="icon" href="imagens/portfolio.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preload" href="js/script.js" as="script">
 
@@ -18,7 +19,7 @@
 <body class="fadeIn">
     <header>
         <nav>
-            <ul class="topnav">
+            <ul class="topnav" data-aos="fade-up">
                 <input type="checkbox" id="btnMenu">
                 <div class="checkbox-wrapper">
                     <li class="logo"><a href="index.html">&lt;EVS/&gt;</p></a></li>
@@ -34,14 +35,14 @@
 
     <section>
         <header class="home">
-            <p class="meio"></p>
+            <p class="meio" data-aos="fade-up"></p>
         </header>
-        <a class="meubotao1" href="#middle">Saiba mais</a>
+        <a class="meubotao1" href="#middle" data-aos="fade-up">Saiba mais</a>
     </section>
     <section class="par" id="middle">
-        <header class="par">Olá!</header>
+        <header class="par" data-aos="fade-up">Olá!</header>
         <nav>
-            <div class="cardall">
+            <div class="cardall" data-aos="fade-up">
                 <div class="card">
                     <img class="selfie" src="imagens/selfie.jpg" alt="Foto de Emanuel">
                     <div class="texto">
@@ -55,7 +56,7 @@
                 </div>
             </div>
         </nav>
-        <ul id="botoes">
+        <ul id="botoes" data-aos="fade-up">
             <a href="sobremim.html" class="meubotao">Sobre mim</a>
             <a href="contato.html" class="meubotao">Contato</a>
             <a href="projetos.html" class="meubotao">Projetos</a>
@@ -68,5 +69,9 @@
     </footer>
     <script src="js/typing.js"></script>
     <script src="js/age.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

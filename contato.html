@@ -9,6 +9,7 @@
     <meta name="description" content="Portfólio do desenvolvedor Emanuel V. Sacoman">
     <meta name="keywords" content="portfolio, html, css, fronnt-end, desenvolvimento, javascript">
     <link rel="icon" href="imagens/portfolio.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>EvS</title>
 </head>
@@ -16,7 +17,7 @@
 <body class="fadeIn">
     <header>
         <nav>
-            <ul class="topnav">
+            <ul class="topnav" data-aos="fade-up">
                 <input type="checkbox" id="btnMenu">
                 <div class="checkbox-wrapper">
                     <li class="logo"><a href="index.html">&lt;EVS/&gt;</p></a></li>
@@ -31,9 +32,9 @@
     </header>
 
     <section class="par" id="par">
-        <header class="par">CONTATO</header>
+        <header class="par" data-aos="fade-up">CONTATO</header>
         <nav>
-            <p class="texto">Você pode me encontrar nessas plataformas de mídia social.<br>
+            <p class="texto" data-aos="fade-up">Você pode me encontrar nessas plataformas de mídia social.<br>
                 Sinta-se livre para entrar no meu servidor do Discord!<br>
             Por favor, use meu <a class="hub" href="index.html#middle">e-mail</a> apenas para assuntos importantes.</p>
         </nav>
@@ -79,6 +80,9 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-
 </html>

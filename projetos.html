@@ -9,6 +9,7 @@
     <meta name="description" content="Portfólio do desenvolvedor Emanuel V. Sacoman">
     <meta name="keywords" content="portfolio, html, css, fronnt-end, desenvolvimento, javascript">
     <link rel="icon" href="imagens/portfolio.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="styleprojetos.css">
     <title>EvS</title>
@@ -17,7 +18,7 @@
 <body class="fadeIn">
     <header>
         <nav>
-            <ul class="topnav">
+            <ul class="topnav" data-aos="fade-up">
                 <input type="checkbox" id="btnMenu">
                 <div class="checkbox-wrapper">
                     <li class="logo"><a href="index.html">&lt;EVS/&gt;</p></a></li>
@@ -32,11 +33,11 @@
     </header>
 
     <section class="proj">
-        <header class="par">PROJETOS</header>
+        <header class="par" data-aos="fade-up">PROJETOS</header>
         
     </section>
 
-    <section class="features">
+    <section class="features" data-aos="fade-up">
             
         <figure>
             <a class="nd"><img src="../imagens/em obras.jpg" alt="Em obras"></a>
@@ -67,5 +68,9 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

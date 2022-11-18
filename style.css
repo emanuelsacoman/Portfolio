@@ -189,7 +189,6 @@ a.meubotao:hover,.meubotao1:hover {
 
 .cardall {
     box-shadow:0px 0px 20px rgba(0,0,0,.5);
-
 }
 
 .card {
@@ -358,6 +357,20 @@ p.foter {
 p.foter:hover {
     opacity: 1;
 }
+
+
+  
+  
+  @keyframes fade-in {
+      0% { 
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
 /* Responsividade */
 

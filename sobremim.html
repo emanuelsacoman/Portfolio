@@ -10,6 +10,7 @@
     <meta name="keywords" content="portfolio, html, css, fronnt-end, desenvolvimento, javascript">
     <link rel="icon" href="imagens/portfolio.png">
     <link rel="stylesheet" href="stylesobremim.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="style.css"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>EvS</title>
 </head>
@@ -17,7 +18,7 @@
 <body class="fadeIn">
   <header>
     <nav>
-        <ul class="topnav">
+        <ul class="topnav" data-aos="fade-up">
             <input type="checkbox" id="btnMenu">
             <div class="checkbox-wrapper">
                 <li class="logo"><a href="index.html">&lt;EVS/&gt;</p></a></li>
@@ -32,15 +33,15 @@
 </header>
 
     <section class="sm">
-      <header class="par">SOBRE MIM</header>
+      <header class="par" data-aos="fade-up">SOBRE MIM</header>
       
   </section>
 
-    <div class="timeline">
+    <div class="timeline" data-aos="fade-up">
         <ul>
           <li>
-            <span>2020</span>
-            <div class="content">
+            <span data-aos="fade-left">2020</span>
+            <div class="content" data-aos="fade-left">
               <h3>Introdução à área de TI:</h3>
               <p>
                 Concluí o Ensino Médio no Colégio Estadual do Campo Faxinal da Boa Vista;
@@ -54,8 +55,8 @@
             </div>
           </li>
           <li>
-            <span>2021</span>
-            <div class="content">
+            <span data-aos="fade-left">2021</span>
+            <div class="content" data-aos="fade-left">
               <h3>Durante a pandemia:</h3>
               <p>
                 Me mantive em casa. Procurei não perder tempo e iniciei um curso superior a distância de Engenharia de Software. Com o fim da pandemia, busquei um ensino presencial pois considero melhor para o aprendizado;
@@ -69,8 +70,8 @@
             </div>
           </li>
           <li>
-            <span>2022</span>
-            <div class="content">
+            <span data-aos="fade-left">2022</span>
+            <div class="content" data-aos="fade-left">
               <h3>Saída da pandemia:</h3>
               <p>
                 Iniciei meu curso de Engenharia de Software na Universidade Guairacá; (4 anos de curso.)
@@ -87,8 +88,8 @@
             </div>
           </li>
           <li>
-            <span>⠀👀⠀</span>
-            <div class="content">
+            <span data-aos="fade-left">⠀👀⠀</span>
+            <div class="content" data-aos="fade-left">
               <h3>Ainda evoluindo:</h3>
               <p>
                 Alguns projetos em mente, não ficarei só no desenvolvimento Web, meus interesses envolvem desenvolvimento Mobile, e criação de jogos, que logo irei aprender;
@@ -106,6 +107,9 @@
             <p class="foter">© 2022 EvS</p>
         </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
