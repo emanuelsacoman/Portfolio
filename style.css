@@ -610,7 +610,7 @@ p.foter:hover {
             padding: 0;
             margin: 4px;
         }
-
+        
         li:first-child {
             margin: 0;
         }
@@ -626,9 +626,11 @@ p.foter:hover {
             top: 50px;
             right: 0;
             margin-left: 200px;
+            z-index: 50;
         }
         li a.cima {
             visibility: visible;
+            z-index: 50;
             opacity: 0;
             font-size: 0px;
             padding: 5px 10px;
@@ -643,6 +645,7 @@ p.foter:hover {
         }
         label {
             display: block;
+            z-index: 50;
             height: 40px;
             width: 40px;
             float: right;
@@ -654,7 +657,7 @@ p.foter:hover {
         .topnav{
             position: fixed;
         }
-
+        
         label:active {
             -webkit-transform: scale(0.9);
             transform: scale(0.9);
