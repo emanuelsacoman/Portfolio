@@ -75,6 +75,14 @@ a.cima {
     text-decoration: none;  
 }
 
+.meio {
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 a.cima:before {
     content: "";
     position: absolute;
@@ -389,10 +397,14 @@ p.foter:hover {
         font-size: 24px;
     }
 
+    .meio {
+        display: flex;
+        white-space:normal;
+    }
+
     .features figure:first-child {
         padding-top: 100px;
     }
-
 
     .features figure img {
         height: 50px;
@@ -422,12 +434,9 @@ p.foter:hover {
         margin-top: 5px;
         margin-right: 5px;
     }
-    
 }
 
 @media screen and (max-width: 760px) {
-    
-
     li {
         font-size: 16px;
     }
@@ -700,8 +709,6 @@ p.foter:hover {
             gap: 40px;
             margin-bottom: 5px;
         }
-        
-
     }
 
     @media screen and (max-width: 364px) {
@@ -710,5 +717,4 @@ p.foter:hover {
             font-size: 11px;
         }
     }
-
 }
