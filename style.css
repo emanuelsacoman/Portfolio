@@ -8,6 +8,7 @@ header {
 #btnMenu, label  {
     display: none;
 }
+
 html::selection {
    background-color: #eebe7a; 
 }
@@ -18,14 +19,15 @@ body {
     background-size: 4000px 6000px;
     color: white;
 }
+
 .hub:hover {
     color: #eebe7a;
 }
+
 .hub {
     text-decoration: underline;
     text-decoration-color: #eebe7a;
 }
-
 
 /* fadeIn */
 
@@ -160,6 +162,11 @@ li.logo a {
     color: #eebe7a;
 }
 
+.meubotao1 {
+    transform-style: preserve-3d;
+    perspective: 150px;
+}
+
 a.meubotao:hover,.meubotao1:hover {
     cursor: pointer;
     -webkit-transform: scale(1.1);
@@ -168,9 +175,10 @@ a.meubotao:hover,.meubotao1:hover {
     box-shadow:0px 0px 10px rgba(0,0,0,.5);
 }
 
-.meubotao1 {
-    transform-style: preserve-3d;
-    perspective: 150px;
+#meio:hover {
+    
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
 }
 
 .meubotao1:after {
@@ -187,12 +195,6 @@ a.meubotao:hover,.meubotao1:hover {
     transform: rotateX(90deg);
 }
 
-
-.meubotao1:hover{
-    transform-origin: center bottom;
-    transform: rotateX(-90deg) translateY(100%);
-
-}
 /* Botão */
 
 .cardall {

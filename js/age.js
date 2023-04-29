@@ -9,17 +9,17 @@ function calculaIdade(dataNasc){
     var mesAtual = dataAtual.getMonth() + 1; 
     //Se mes atual for menor que o nascimento, nao fez aniversario ainda;  
     if(mesAtual < mesNasc){
-    idade--; 
-    document.querySelector('.idade').innerHTML = idade;
+        idade--; 
+        document.querySelector('.idade').innerHTML = idade;
     } else {
     //Se estiver no mes do nascimento, verificar o dia
-    if(mesAtual == mesNasc){ 
-    if(new Date().getDate() < diaNasc ){ 
-    //Se a data atual for menor que o dia de nascimento ele ainda nao fez aniversario
-    idade--; 
-    document.querySelector('.idade').innerHTML = idade;
-    }
-    }
+        if(mesAtual == mesNasc){ 
+            if(new Date().getDate() < diaNasc ){ 
+            //Se a data atual for menor que o dia de nascimento ele ainda nao fez aniversario
+            idade--; 
+            document.querySelector('.idade').innerHTML = idade;
+            }
+        }
     } 
 
     document.querySelector('.idade').innerHTML = idade;
