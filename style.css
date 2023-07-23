@@ -673,6 +673,7 @@ p.foter:hover {
         }
         .topnav{
             position: fixed;
+            z-index: 50;
         }
         
         label:active {
