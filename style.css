@@ -596,9 +596,11 @@ p.foter:hover {
             margin: 0;
             padding: 0;
         }
+        ul .meubotao{
+            display: none;
+        }
         li {
             padding: 0;
-            margin: 5px;
         }
         #par {
             padding: 0;
@@ -615,10 +617,7 @@ p.foter:hover {
             padding-top: 0;
             margin-top: 0;
         }
-    }
 
-    
-    @media screen and (max-width: 404px){
         html, body {
             overflow-x: hidden;
         }
@@ -629,12 +628,6 @@ p.foter:hover {
         header.par {
             margin-top: 250px;
         }
-        
-        li {
-            padding: 0;
-            margin: 4px;
-        }
-        
         li:first-child {
             margin: 0;
         }
@@ -658,7 +651,7 @@ p.foter:hover {
             opacity: 0;
             font-size: 0px;
             padding: 5px 10px;
-            left: 150px;
+            left: 50px;
             -webkit-transform: scale(0);
             transform: scale(0);
             transition: all 0.2s linear;
@@ -710,6 +703,22 @@ p.foter:hover {
             justify-content: center;
             gap: 40px;
             margin-bottom: 5px;
+        }
+        li::before{
+            margin: 0px;
+        }
+    }
+    
+    @media screen and (max-width: 404px){
+        li::before{
+            margin: 5px;
+        }
+        
+    }
+
+    @media screen and (max-width: 394px){
+        li a.cima:first-child {
+            margin-left: 100px;
         }
     }
 
