@@ -135,7 +135,16 @@ section nav {
     align-items: center;
 }
 
+
 /* Botão */
+
+ul#botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
 
 section .meubotao,.meubotao1 {
     font-family: 'Roboto Thin', sans-serif;
@@ -368,9 +377,6 @@ p.foter:hover {
     opacity: 1;
 }
 
-
-  
-  
   @keyframes fade-in {
       0% { 
         opacity: 0;
@@ -505,6 +511,12 @@ p.foter:hover {
         height: 20px;
         margin-top: 7px;
         margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 653px){
+    section .meubotao {
+        font-size: 20px;
     }
 }
 
