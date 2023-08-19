@@ -15,7 +15,7 @@ Este portfólio foi mais do que um simples projeto. Ele foi meu passaporte para 
 
 ### 🎓 Por Trás das Telas:
 
-Imagine criar algo que não apenas aumenta sua nota, mas também abre portas para um futuro brilhante. Este portfólio não é apenas uma peça de código, é um símbolo do meu aprendizado contínuo em engenharia de software. Ele representa desafios superados, conceitos dominados e a paixão que tenho por criar.
+Imagine criar algo que não apenas aumenta sua nota, mas também abre portas para um futuro brilhante. Este portfólio não é apenas uma peça de código, é um símbolo do meu aprendizado contínuo em programação. Ele representa desafios superados, conceitos dominados e a paixão que tenho por criar.
 
 ### 👥 Quem Deve Dar uma Olhada:
 
@@ -25,7 +25,7 @@ Se você é um programador em busca de inspiração, um colega de sala curioso o
 
 Sinta-se à vontade para explorar, clicar e descobrir quem eu sou através do meu código. E, se quiser experimentar uma pitada do meu estilo, role para baixo e veja o GIF do meu portfólio em ação! Não hesite em entrar em contato se você quiser bater um papo ou colaborar em algo incrível.
 
-[Divirta-se explorando o mundo que criei!](https://portfolio-evs.netlify.app)
+> [Divirta-se explorando o mundo que criei!](https://portfolio-evs.netlify.app)
 
 <p>
 <img src="/gifPortfolio.gif">
