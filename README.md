@@ -11,7 +11,7 @@ Você já se perguntou como um pedaço de código pode contar a sua história? B
 
 ### 👨‍💻 Desenvolvimento na Veia:
 
-Este portfólio foi mais do que um simples projeto. Ele foi meu passaporte para explorar o mundo digital, e a linguagem que fala é uma mistura de HTML, CSS e JavaScript. O Visual Studio Code foi meu cúmplice nessa jornada, onde dei vida às minhas ideias pixel por pixel.
+Este portfólio foi mais do que um simples projeto. Ele foi meu passaporte para explorar o mundo digital, utilizei uma mistura de **HTML**, **CSS** e **JavaScript**. O Visual Studio Code foi meu cúmplice nessa jornada, onde dei vida às minhas ideias pixel por pixel.
 
 ### 🎓 Por Trás das Telas:
 
