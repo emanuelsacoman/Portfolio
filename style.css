@@ -535,7 +535,6 @@ p.foter:hover {
     }
 
     section .meubotao:hover {
-        background: aliceblue;
         font-size: 14px;
         margin-top: 29px;
     }
@@ -740,5 +739,53 @@ p.foter:hover {
         ul .meubotao{
             font-size: 11px;
         }
+    }
+
+    @media screen and (max-width: 322px) {
+
+        section .meubotao {
+            font-size: 12px;
+        }
+        
+    }
+
+    @media screen and (max-width: 320px) {
+
+        #features {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around ;
+            
+        }
+        
+        #features figure:first-child {
+            
+        }
+
+        #features figure{
+            padding: 0;
+            margin-top: 20vh;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 300px) {
+
+        section .meubotao {
+            font-size: 10px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        
+    }
+
+    @media screen and (max-width: 223px) {
+
+        #features figure img {
+            height: 20px;
+            width: auto;
+        }
+        
     }
 }

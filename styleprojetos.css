@@ -59,7 +59,7 @@ figure figcaption {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1193px) {
     .features {
         display: block;
     }
@@ -94,14 +94,31 @@ figure figcaption {
     }
 }
 
+@media screen and (max-width: 1073px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features figure:first-child {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    figure {
+        width: fit-content;
+    }
+
+    .features figure:first-child {
+        margin-top: 100px;
+    }
+}
+
 @media screen and (max-width: 760px) {
     li {
         font-size: 14px;
-    }
-
-    .features figure img {
-        width: 240px;
-        height: 135px;
     }
 
     figure figcaption {
@@ -129,13 +146,46 @@ figure figcaption {
         font-size: 12px;
     }
 
-    .features figure:first-child {
-        margin-top: 100px;
+    .features figure img {
+        width: 250px;
+        height: auto;
     }
 
-    @media screen and (max-width: 404px){
-        .logo {
-            font-size: 16px;
-        }
+}
+
+@media screen and (max-width: 404px){
+    .logo {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 351px){
+    .proj {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 290px){
+    .proj {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    .par {
+        font-size: 25px;
+    }
+
+    .features figure img{
+        height: 100px;
+        width: auto;
+    }
+
+    figcaption a{
+        font-size: 16px;
     }
 }
