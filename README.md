@@ -26,7 +26,7 @@ Se você é um programador em busca de inspiração, um colega de sala curioso o
 Sinta-se à vontade para explorar, clicar e descobrir quem eu sou através do meu código. E, se quiser experimentar uma pitada do meu estilo, role para baixo e veja o GIF do meu portfólio em ação! Não hesite em entrar em contato se você quiser bater um papo ou colaborar em algo incrível.
 
 Divirta-se explorando o mundo que criei!
-
-<img align="center" src="/gifPortfolio.gif">
-
+<p align="center">
+<img src="/gifPortfolio.gif">
+</p>
 Feito com 💜 e algumas linhas de código por Emanuel.
