@@ -4,10 +4,10 @@ Você já se perguntou como um pedaço de código pode contar a sua história? B
 
 ## 📂 Navegando pelo Portfólio:
 
-* MENU: Um lugar para você se orientar, como uma bússola no mundo do código.
-* SOBRE MIM: Quem sou eu? Uma mente curiosa apaixonada por resolver quebra-cabeças digitais e criar coisas que importam.
-* CONTATO: Vamos conversar! Meus canais de comunicação estão abertos para conexões, colaborações e qualquer pergunta que você possa ter.
-* PROJETOS: Veja por si mesmo o que tenho a oferecer. Não são apenas projetos, são criações que ganharam vida através de linhas de código.
+* ´MENU´: Um lugar para você se orientar, como uma bússola no mundo do código.
+* ´SOBRE MIM´: Quem sou eu? Uma mente curiosa apaixonada por resolver quebra-cabeças digitais e criar coisas que importam.
+* ´CONTATO´: Vamos conversar! Meus canais de comunicação estão abertos para conexões, colaborações e qualquer pergunta que você possa ter.
+* ´PROJETOS´: Veja por si mesmo o que tenho a oferecer. Não são apenas projetos, são criações que ganharam vida através de linhas de código.
 
 ### 👨‍💻 Desenvolvimento na Veia:
 
