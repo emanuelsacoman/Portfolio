@@ -27,6 +27,6 @@ Sinta-se à vontade para explorar, clicar e descobrir quem eu sou através do me
 
 Divirta-se explorando o mundo que criei!
 
-
+<img src="/gifPortfolio.gif">
 
 Feito com 💜 e algumas linhas de código por Emanuel.
